@@ -2,7 +2,7 @@
 **CST-391 JavaScript Web Application Development**  
 **Kaya Nelson**
 
-This document demonstrates the nine endpoints of the **MusicAPI** and includes a screencast recording link.
+This document provides an in-depth overview of the **MusicAPI**, detailing the nine key endpoints available for interaction. Each endpoint is designed to facilitate various operations related to music products, enhancing the overall user experience in managing a music store's inventory and customer interactions. Additionally, a screencast recording link is included for visual guidance on utilizing the API effectively.
 
 ---
 
@@ -25,8 +25,8 @@ This document demonstrates the nine endpoints of the **MusicAPI** and includes a
 **Screenshot:**  
 ![Connection Check](./screenshots/01-connection-check.png)
 
-**Description:**  
-This confirms the server is running by returning a simple `<h1>Welcome to the Music API</h1>` response.
+**Description:**
+This endpoint confirms that the server is running correctly by returning a simple HTML response. When accessed, it provides the following output: `<h1>Welcome to the Music API</h1>` response.
 
 ---
 
