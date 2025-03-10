@@ -1,6 +1,6 @@
 # Activity 1: Express API  
 **CST-391 JavaScript Web Application Development**  
-**Matt Kollar**
+**Kaya Nelson**
 
 This document demonstrates the nine endpoints of the **MusicAPI** and includes a screencast recording link.
 
@@ -138,7 +138,7 @@ Returns a distinct list of artists from the database.
 ---
 
 ## 10) Screencast Recording
-**Link:** [**http://somup.com/cTeioy7tWi**](#)
+**Link:** [**https://go.screenpal.com/watch/cTe6hjn1pkW**](#)
 
 **Description:**  
 A video demonstration of each endpoint in Postman, along with a detailed explanation of one API method (router → controller → DAO).
