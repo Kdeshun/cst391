@@ -36,7 +36,7 @@ This endpoint confirms that the server is running correctly by returning a simpl
 ![Get All Albums](./screenshots/02-get-albums.png)
 
 **Description:**  
-Returns a list of all albums in the database. The JSON response contains an array of album objects.
+This endpoint retrieves a list of all albums stored in the database. It provides valuable information for users looking to explore music collections.
 
 ---
 
@@ -46,8 +46,7 @@ Returns a list of all albums in the database. The JSON response contains an arra
 ![Get Albums by Artist](./screenshots/03-get-albums-by-artist.png)
 
 **Description:**  
-Retrieves albums for a specific artist, in this case, **"The Beatles"**.
-
+This endpoint retrieves a list of albums for a specific artist. For this example, we will focus on **"The Beatles."**
 ---
 
 ## 4) Search Albums by Name
@@ -56,7 +55,7 @@ Retrieves albums for a specific artist, in this case, **"The Beatles"**.
 ![Search Albums by Name](./screenshots/04-search-albums-by-name.png)
 
 **Description:**  
-Returns albums where the artist name contains `"Beat"`.
+This endpoint retrieves a list of albums where the artist's name contains a specific substring. In this case, we will search for artists whose names include `"Beat"`.
 
 ---
 
@@ -66,7 +65,7 @@ Returns albums where the artist name contains `"Beat"`.
 ![Search Albums by Description](./screenshots/05-search-albums-by-description.png)
 
 **Description:**  
-Returns albums whose description contains the substring `"sgt"`.
+This endpoint retrieves a list of albums where the album description contains a specific substring. In this case, we will search for albums with descriptions that include `"sgt"`.
 
 ---
 
@@ -90,7 +89,7 @@ Returns albums whose description contains the substring `"sgt"`.
 ```
 
 **Description:**  
-Inserts a new album into the database. The response typically shows an `insertId` for the newly created record.
+This endpoint allows you to insert a new album into the database. Upon a successful addition, the response will typically include an `insertId` for the newly created record.
 
 ---
 
@@ -113,7 +112,7 @@ Inserts a new album into the database. The response typically shows an `insertId
 ```
 
 **Description:**  
-Updates an existing album’s information. The response confirms whether the update was successful.
+This endpoint allows you to update the information of an existing album in the database. Upon a successful update, the response will confirm whether the operation was successful.
 
 ---
 
@@ -123,7 +122,7 @@ Updates an existing album’s information. The response confirms whether the upd
 ![Delete Album](./screenshots/08-delete-album.png)
 
 **Description:**  
-Deletes an album by its ID. The response confirms the deletion.
+This endpoint allows you to delete an album from the database using its ID. Upon successful deletion, the response will confirm the operation.
 
 ---
 
@@ -133,7 +132,7 @@ Deletes an album by its ID. The response confirms the deletion.
 ![Get All Artists](./screenshots/09-get-artists.png)
 
 **Description:**  
-Returns a distinct list of artists from the database.
+This endpoint retrieves a distinct list of artists from the database. It ensures that each artist is listed only once.
 
 ---
 
