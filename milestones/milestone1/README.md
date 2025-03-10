@@ -35,17 +35,17 @@ The application will enable users to effortlessly browse and manage a wide range
 
 ## ER Diagram  
 
-![alt text]![er](https://github.com/user-attachments/assets/b64d57a0-47dd-4d6e-b15e-14946d86c51b)
+![er](https://github.com/user-attachments/assets/78f3bee8-ce80-4275-9b09-64b0e08de163)
 
 ## UI Sitemap Diagram  
 
-![alt text](uiSitemap.png)
+![uiSitemap](https://github.com/user-attachments/assets/3413c677-3a91-4c21-a5fe-91a550db3fd3)
 ## UI Wireframe  
 
-![alt text](image-4.png)
+![wireframe](https://github.com/user-attachments/assets/70382e3f-8ce0-4103-a32a-67cb0ded0247)
 ## UML Classes  
 
-![alt text](image-3.png)
+![umlClasses](https://github.com/user-attachments/assets/b2d3dec3-bb4a-4318-8787-efe5b0da1b8d)
 ---
 
 ## Risks  
