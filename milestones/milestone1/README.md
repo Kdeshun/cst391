@@ -7,10 +7,6 @@
 **Professor:** Estey  
 **Date:** 3/5/2025  
 
-## GitHub Link  
-
-[Kdeshun/CST-391](https://github.com/Kdeshun/CST-391)  
-
 ---
 
 ## Introduction  
@@ -39,7 +35,8 @@ The application will enable users to effortlessly browse and manage a wide range
 
 ## ER Diagram  
 
-![alt text](image.png)
+![alt text]![er](https://github.com/user-attachments/assets/b64d57a0-47dd-4d6e-b15e-14946d86c51b)
+
 ## UI Sitemap Diagram  
 
 ![alt text](uiSitemap.png)
