@@ -83,17 +83,18 @@ In the modern digital landscape, obtaining biblical and religious materials shou
 <!-- 4. Initial Database Design -->
 ## Database Design
 
-![ER Diagram](./christianLibraryER.png)
+![christianLibraryER](https://github.com/user-attachments/assets/19f39e7a-3619-42a7-823e-8becad78789f)
 
 <!-- 5. Initial UI Sitemap (Using Mermaid) -->
 ## UI Sitemap
-![Sitemap](./christianLibrarySitemap.png)
+<img width="876" alt="christianLibrarySitemap" src="https://github.com/user-attachments/assets/23845c3f-4f27-45e9-bb9c-a466653cce82" />
 
 <!-- 6. Initial UI Wireframes -->
 ## UI Wireframe Pages
 |Page Name|Wireframe|
 |--|--|
-|Registration|![register](./wireframeViews/registrationPage.png)|
+|Registration|![registrationPage](https://github.com/user-attachments/assets/702701ec-2fe0-4636-83a9-cacbb63864eb)
+|
 |Login|![login](./wireframeViews/loginPage.png)|
 |Home|![home](./wireframeViews/homePage.png)|
 |Browse|![browse](./wireframeViews/browseMedia.png)|
