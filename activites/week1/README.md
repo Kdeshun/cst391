@@ -1,151 +1,90 @@
-# 📌 CST-391 Activity 0: Tools Installation and Initial Applications
+# Activity 2
 
-## **📂 Project Structure**
-This repository contains three sub-projects under **Activity 0**:
-1. **hello** → Basic Node.js console "Hello World" application.
-2. **helloex** → Express.js "Hello World" application running in a browser.
-3. **MusicAPI** → TypeScript-based Node.js web service.
+<!-- 1. Cover Sheet -->
+Kaya Nelson \
+College of Science, Engineering, & Technology, Grand Canyon University \
+CST-391: JavaScript Web Application Development \
+Professor Bobby Estey
 
----
+## Introduction
 
-## **1️⃣ NodeJS and NPM Installation**
-### ✅ **Verify Node.js Installation**
-Run the command:
-```bash
-node -v
-```
-**Screenshot:**
-![NodeJS Version](./screenshots/node-version.png)
+- In this session, we will be setting up the Angular development environment. This process involves installing the necessary Angular tools and libraries essential for building applications. Once the installation is complete, we will verify that everything is functioning correctly by creating and testing a basic application. This hands-on approach will ensure that the development tools are properly configured and ready for use in future projects..
 
-### ✅ **Verify NPM Installation**
-Run the command:
-```bash
-npm -v
-```
-**Screenshot:**
-![NPM Version](./screenshots/npm-version.png)
+## Screenshots
 
----
+![Angular Version](./ngVersion.png)
 
-## **2️⃣ Hello World Console Application (hello/)**
-### **app.js Code**
-Create a file named `app.js` inside the `hello/` folder with the following content:
-```javascript
-console.log('Hello World!');
-```
-### **Run the Application**
-```bash
-node app.js
-```
-**Screenshot:**
-![Hello World Console](./screenshots/hello-world-console.png)
+This screenshot showcases the results of the ng version command, revealing the current versions of Angular and Node.js installed on my system. This information is essential for verifying compatibility and for troubleshooting any issues that could occur during the development process.
 
----
 
-## **3️⃣ Express "Hello World" Application (helloex/)**
-### **Install Express**
-Navigate to the `helloex/` folder and run:
-```bash
-npm init -y
-npm install express
-```
-### **app.js Code**
-Create `app.js` inside `helloex/`:
-```javascript
-const express = require('express');
-const app = express();
-const port = 3000;
 
-app.get('/', (req, res) => res.send('Hello World!'));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
-```
-### **Run the Server**
-```bash
-node app.js
-```
-Open a browser and visit: [http://localhost:3000](http://localhost:3000)  
 
-**Screenshot:**
-![Hello World Express](./screenshots/hello-world-browser.png)
+![Test app initial run](./testAppRun.png)
 
----
+In this screenshot, we can observe the default Angular application running locally in my browser. This application was generated using the ng new command and subsequently built and served with the ng serve -o command. This process sets up a live development server, allowing for real-time updates and testing of the application in the browser.
 
-## **4️⃣ Nodemon Utility**
-### ✅ **Install nodemon**
-```bash
-npm install -g nodemon
-```
-### ✅ **Run Server with nodemon**
-```bash
-nodemon app.js
-```
-Modify `app.js`, refresh the browser, and check if it updates automatically.
 
-**Screenshot:**
-![Nodemon Running](./screenshots/nodemon.png)
+![Changed title](./changedTitle.png)
 
----
+In this instance, I modified the title in the app.component.ts file. After making this change, I observed that the application automatically reloaded, reflecting the updated string "Changed Title" in the browser. This demonstrates Angular's hot-reload feature, which allows for immediate feedback during development.
 
-## **5️⃣ TypeScript "Hello World" API (MusicAPI/)**
-### **Set Up the Project**
-Navigate to `MusicAPI/` and run:
-```bash
-npm init -y
-npm install express
-npm install --save-dev typescript @types/express
-```
-### **Create `src/app.ts`**
-```typescript
-import express, { Request, Response } from 'express';
 
-const app = express();
-const port = 3000;
+![Added Message](./addMessage.png)
 
-app.get('/', (req: Request, res: Response) => {
-    res.send('Hello World from TypeScript!');
-});
+This screenshot illustrates the addition of a message property to our component class. This property is then rendered within an <h3> tag in the component's template. This enhancement allows us to display dynamic content in the application, showcasing Angular's capability to bind data between the class and the template seamlessly.
 
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
-});
-```
-### **Install TypeScript Compiler**
-```bash
-npm install typescript@latest -g
-tsc --init  # Generates tsconfig.json
-```
-### **Run the TypeScript Application**
-```bash
-ts-node src/app.ts
-```
-**Screenshot:**
-![Hello World TypeScript](./screenshots/hello-world-typescript.png)
+## Research
 
----
+1. Project Structure:
+   1. **`node_modules`** 
+   - This directory contains all npm packages that the Angular project depends on. 
+   - It is created automatically when you install packages using npm.
+   - As you add new dependencies via commands like `npm install`, they will be placed in this folder, ensuring your application has access to the required libraries.
 
-## **6️⃣ Commented `app.ts` File**
-Here’s the **fully documented TypeScript app**:
-```typescript
-// Import Express framework and Request, Response types for strong typing
-import express, { Request, Response } from 'express';
+   2. **`src`**  
+   - The `src` folder is the main directory for the source code of the Angular application.
+   - This is where you will spend most of your time writing code and building your application.
+   3. **`src/app`**  
+   - This is the core entry point for the Angular application’s codebase.
+   - It contains essential files such as modules, components, and services that define the application's structure and behavior.
+   - Typically, you will find a main component (often `app.component.ts`), routing configurations, and any shared services in this directory.
 
-// Create an Express app instance
-const app = express();
+   4. **`src/assets`**  
+   - This folder is designated for static assets like images, fonts, and stylesheets that the application may need.
+   - Any files placed here can be accessed directly via URL paths, making it easy to manage resources used in your application.
 
-// Define the port the server will listen on
-const port = 3000;
+   5. **`src/environments`**  
+   - The `environments` folder contains configuration files for different build environments (e.g., development, production).
+   - Each environment file allows you to define settings specific to that environment, such as API endpoints or feature flags, ensuring that the application behaves correctly depending on the context in which it is running.
+   6. **`angular.json`**
+   - This is the workspace configuration file for Angular projects.
+   - It defines settings for how the application is built, including options for development and production builds, asset configurations, and project-specific settings.
+   7. **`package.json`**  
+   - The `package.json` file outlines the project's npm dependencies and scripts.
+   - It specifies the packages required for the project, along with version numbers, and can also define scripts for common tasks, such as starting the development server or running tests.
+   8. **`tsconfig.json`**    
+   - This file contains the TypeScript configuration settings for the project.
+   - It specifies how TypeScript compiles your code, including compiler options and file inclusions/exclusions, ensuring that the TypeScript files are processed correctly during the build.
 
-// Define a GET endpoint that responds with "Hello World from TypeScript!"
-app.get('/', (req: Request, res: Response) => {
-    // Send a response back to the client
-    res.send('Hello World from TypeScript!');
-});
 
-// Start the Express server and listen on the defined port
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
-});
-```
-**Screenshot:**
-![Commented TypeScript App](./screenshots/commented-app-ts.png)
+2. In an Angular application, several critical files collaborate to define, configure, and manage the various components and their visual presentation. Below is an in-depth exploration of these essential files:
+
+ **`main.ts`**
+The main.ts file functions as the primary entry point for the Angular application. It plays a pivotal role in bootstrapping the application, initiating the rendering process that transforms the application’s components into a functional user interface. This file typically contains the invocation of platformBrowserDynamic().bootstrapModule(AppModule), which loads the root module of the application. This marks the commencement of the application lifecycle, establishing the necessary environment for Angular to execute properly. It serves not only to launch the app but also to configure the Angular environment, ensuring that dependencies are resolved and the application is prepared for user interaction.
+
+**`app.module.ts`**
+The app.module.ts file is responsible for defining the root module, commonly referred to as AppModule. This module is a fundamental building block of the Angular architecture, providing a cohesive structure for the application. Within this file, developers import essential Angular modules such as BrowserModule, HttpClientModule, and FormsModule, which provide core functionalities required for the application to operate efficiently. Additionally, this file declares all the components associated with the module, allowing Angular to recognize and utilize them effectively. Beyond component declaration, the module can also configure services and manage routing, facilitating seamless navigation between different views and enhancing the overall user experience.
+
+**`app.component.ts`**
+In the app.component.ts file, developers define the main component of the application, known as AppComponent. This file serves as the controller for the default view, encapsulating the logic that drives the component’s functionality. Inside, you will find properties and methods that dictate how the component behaves, including data-binding properties that establish connections between the component's logic and its corresponding template. The component plays a crucial role in managing data flow, responding to user interactions, and handling events. Furthermore, it can implement lifecycle hooks, allowing developers to execute custom logic at various stages of the component’s lifecycle, such as initialization and destruction.
+
+**`app.component.html`**
+The app.component.html file serves as the template for the AppComponent, outlining the structure and layout of the user interface that end-users interact with. Utilizing Angular’s powerful templating syntax, this file enables data binding, structural directives (such as *ngIf and *ngFor), and event binding, creating a dynamic and interactive experience for users. The template effectively bridges the gap between the application logic and its visual presentation, ensuring a clear separation of concerns. By defining how data from the component is rendered, it enhances the modularity and maintainability of the application’s codebase.
+
+**`app.component.css`**
+Finally, the app.component.css file houses the styling specific to the AppComponent. This file allows developers to define CSS rules that govern the visual representation of the component’s elements. By scoping styles to the component, Angular effectively promotes encapsulation, ensuring that styles do not unintentionally affect other components or parts of the application. This modular approach enhances the user experience, allowing for a consistent and coherent design that aligns with the overall aesthetic of the application. The styles defined in this file contribute significantly to the visual appeal and usability of the component, enriching the user’s interaction with the application.
+## Conclusion
+
+In this activity, we focused on setting up the essential tools for Angular development, which included installing Node.js and the Angular CLI (Command Line Interface) to streamline our workflow. After establishing the necessary tools, we validated their functionality by creating a simple test application. This involved generating a new project with the Angular CLI and running it locally using the ng serve command, allowing us to confirm that the application loaded correctly in a web browser. Additionally, we explored the default project structure provided by Angular, which includes the src/ directory for application code, the app/ folder for core components and services, and configuration files such as angular.json and package.json. Through this process, we successfully established our Angular development environment and gained valuable insights into the organized structure of Angular projects, setting a solid foundation for future development.
+
