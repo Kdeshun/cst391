@@ -20,17 +20,17 @@ This screenshot showcases the results of the ng version command, revealing the c
 
 
 
-![Test app initial run](./testAppRun.png)
+<img width="1623" alt="testAppRun" src="https://github.com/user-attachments/assets/99d5f037-baa0-4d8c-93a2-ba1e436eb612" />
 
 In this screenshot, we can observe the default Angular application running locally in my browser. This application was generated using the ng new command and subsequently built and served with the ng serve -o command. This process sets up a live development server, allowing for real-time updates and testing of the application in the browser.
 
 
-![Changed title](./changedTitle.png)
+<img width="1623" alt="changedTitle" src="https://github.com/user-attachments/assets/c0873ae2-dcb8-4d6b-9d83-4fee37d1419d" />
 
 In this instance, I modified the title in the app.component.ts file. After making this change, I observed that the application automatically reloaded, reflecting the updated string "Changed Title" in the browser. This demonstrates Angular's hot-reload feature, which allows for immediate feedback during development.
 
 
-![Added Message](./addMessage.png)
+<img width="1623" alt="addMessage" src="https://github.com/user-attachments/assets/19d21efd-3d9d-4015-acc0-182f0f8fda40" />
 
 This screenshot illustrates the addition of a message property to our component class. This property is then rendered within an <h3> tag in the component's template. This enhancement allows us to display dynamic content in the application, showcasing Angular's capability to bind data between the class and the template seamlessly.
 
