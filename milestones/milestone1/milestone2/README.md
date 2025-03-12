@@ -95,7 +95,8 @@ In the modern digital landscape, obtaining biblical and religious materials shou
 |--|--|
 |Registration|![registrationPage](https://github.com/user-attachments/assets/702701ec-2fe0-4636-83a9-cacbb63864eb)
 |
-|Login|![login](./wireframeViews/loginPage.png)|
+|Login|![login]![loginPage](https://github.com/user-attachments/assets/2ca773f0-dc9d-4cdc-8d39-d54f7370220c)
+|
 |Home|![home](./wireframeViews/homePage.png)|
 |Browse|![browse](./wireframeViews/browseMedia.png)|
 |Search|![search](./wireframeViews/searchPage.png)|
