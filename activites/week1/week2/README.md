@@ -12,7 +12,7 @@ Professor Bobby Estey
 
 ## Screenshots
 
-![Angular Version](./ngVersion.png)
+![ngVersion](https://github.com/user-attachments/assets/7e9309bb-5123-4775-b4dc-9abfd5c1817e)
 
 This screenshot showcases the results of the ng version command, revealing the current versions of Angular and Node.js installed on my system. This information is essential for verifying compatibility and for troubleshooting any issues that could occur during the development process.
 
