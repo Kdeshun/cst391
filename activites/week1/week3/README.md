@@ -17,13 +17,13 @@ The second application marks the initial phase of our frontend development, whic
 ### Screenshots
 
 ![gridWide](https://github.com/user-attachments/assets/b63889d3-88a8-46b8-bc10-e1c070ca9050)
-![](./part1Screenshots/gridThin.png)
+![gridThin](https://github.com/user-attachments/assets/38237869-d727-4ecf-aa27-350121c57563)
 
 These screenshots illustrate the implementation of a straightforward Bootstrap grid within our simple application. They effectively showcase how responsive design adapts to different window sizes, ensuring that the layout remains user-friendly and visually appealing across various devices. By utilizing Bootstrap's grid system, we can see firsthand how the application's elements reconfigure and rearrange seamlessly, enhancing the overall user experience regardless of the screen size. This adaptability is crucial for modern web applications, as it allows users to access content comfortably whether they are on a desktop, tablet, or mobile device.
 
 
 
-![](./part1Screenshots/appForm.png)
+![appForm](https://github.com/user-attachments/assets/6fcac1ff-aeff-4d5f-b61a-a8138323c829)
 
 This screenshot displays the form we developed within the shop component, which is invoked by the main app component. Alongside the form, the info component is also included in the layout. However, I encountered some challenges getting the ngIf logic to function correctly for displaying the info component upon form submission, despite replicating the activity code accurately. This issue indicates that there may be a misunderstanding in the implementation of the conditional rendering, which is crucial for ensuring that the info component appears as intended after the form is submitted. I'll need to troubleshoot the logic and possibly revisit the conditions set for ngIf to resolve this issue effectively.
 
@@ -47,17 +47,17 @@ This dual synchronization is particularly beneficial for managing user inputs in
 
 ### Screenshots
 
-![](./part2Screenshots/musicAppHome.png)
+![musicAppHome](https://github.com/user-attachments/assets/0e2c7ed0-c576-49a0-a8d1-042c169fd56b)
 
 This screenshot displays the home page of our music app, featuring a navigation bar that provides routes to the various other available pages. The nav bar acts as a crucial component for user navigation, allowing visitors to seamlessly transition between different sections of the app, such as exploring music genres, viewing playlists, or accessing user-specific features. Its design is likely intended to enhance the user experience by making it easy to navigate throughout the application without losing context. By ensuring that users can easily reach any part of the app, the nav bar contributes to a more organized and enjoyable browsing experience, ultimately encouraging users to engage further with the content offered.
 
 
-![](./part2Screenshots/musicAppGCULink.png)
+![musicAppGCULink](https://github.com/user-attachments/assets/da6b921e-0ec4-4f67-ae85-b508485ff01c)
 
 This screenshot illustrates the external link from our music app to GCU's website. The presence of this link serves as a valuable resource for users, providing them with direct access to relevant information about GCU (Grand Canyon University), such as academic programs, campus resources, and other institutional details. By integrating external links, the music app enhances its functionality, allowing users to gather additional context or explore related content without leaving the application. This approach not only enriches the user experience but also fosters a sense of connectivity with external entities, showcasing the app's capability to bridge users with broader informational landscapes.
 
 
-![](./part2Screenshots/musicAppCreateAlbum.png)
+![musicAppCreateAlbum](https://github.com/user-attachments/assets/a9c2d937-8b2e-42bc-8d13-b124eb8be575)
 
 The album creation form for the music app is designed to facilitate the process of adding new albums to the application's library. This form typically includes various input fields that allow users to provide essential details about the album, such as the album title, artist name, genre, release date, and cover art.
 
@@ -65,7 +65,7 @@ The layout of the form may incorporate elements such as text input fields, dropd
 
 By streamlining the album creation process, this form empowers users to contribute to the music app's content, fostering a more engaging and interactive environment. It not only allows users to express their musical preferences but also enriches the app's library, making it a more comprehensive resource for music lovers.
 
-![](./part2Screenshots/musicAppArtistList.png)
+![musicAppArtistList](https://github.com/user-attachments/assets/4318c1e5-3822-4a9d-83ac-95f3d0c397c4)
 
 This is the list of artists displayed within the music app, showcasing various contributors to the music library. Notably, this list includes a custom entry that was added via the previous album creation page. This feature allows users to dynamically add new artists, providing flexibility and personalization to the music library.
 
@@ -73,7 +73,7 @@ Each entry in the artist list may feature essential details, such as the artist'
 
 This approach not only enriches the content of the app but also fosters a sense of community among users as they contribute to the curation of music and artist profiles. Ultimately, it enhances the user experience by making the app more reflective of the diverse musical landscape that users enjoy.
 
-![](./part2Screenshots/musicAppAbout.png)
+![musicAppAbout](https://github.com/user-attachments/assets/701b9138-345e-4403-a921-cc90a2cfe027)
 
 This screenshot displays the "About" box that appears when the "About" option is tapped in the navigation bar of the music app. The "About" box typically provides essential information regarding the app, such as its purpose, features, and the team behind its development.
 
