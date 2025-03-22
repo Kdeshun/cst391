@@ -16,7 +16,7 @@ The second application marks the initial phase of our frontend development, whic
 
 ### Screenshots
 
-![](./part1Screenshots/gridWide.png)
+![gridWide](https://github.com/user-attachments/assets/b63889d3-88a8-46b8-bc10-e1c070ca9050)
 ![](./part1Screenshots/gridThin.png)
 
 These screenshots illustrate the implementation of a straightforward Bootstrap grid within our simple application. They effectively showcase how responsive design adapts to different window sizes, ensuring that the layout remains user-friendly and visually appealing across various devices. By utilizing Bootstrap's grid system, we can see firsthand how the application's elements reconfigure and rearrange seamlessly, enhancing the overall user experience regardless of the screen size. This adaptability is crucial for modern web applications, as it allows users to access content comfortably whether they are on a desktop, tablet, or mobile device.
