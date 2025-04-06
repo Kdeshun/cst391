@@ -16,7 +16,8 @@ In this session, we will focus on creating two straightforward React application
 
 ### Stopping Point #1 Deliverables 
 
-![Music Cards](./activityScreenshots/part1MusicCards.png)
+![Music Cards](![part1MusicCards](https://github.com/user-attachments/assets/2f8ba792-df75-41d6-bc7f-cd62320469f1)
+)
 - In this screenshot, we are looking at a fundamental React application that prominently displays our Card component. This component is designed to accept parameters, also known as props, which it uses to exhibit particular details about an album, such as its title, artist, release date, and cover art. By leveraging props, we can create dynamic and reusable components that allow for the presentation of varied content based on the data passed to them. This approach not only enhances the functionality and scalability of the application but also exemplifies the core principles of React, such as component-driven architecture and state management. Through this structure, developers can easily modify and maintain their code while ensuring a seamless user experience.
 
 
