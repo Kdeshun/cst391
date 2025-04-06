@@ -15,9 +15,7 @@ In this session, we will focus on creating two straightforward React application
 ## Part 1
 
 ### Stopping Point #1 Deliverables 
-
-![Music Cards](![part1MusicCards](https://github.com/user-attachments/assets/2f8ba792-df75-41d6-bc7f-cd62320469f1)
-) ![part1MusicCards](https://github.com/user-attachments/assets/7ea82067-189d-4c3b-a1d7-445d606b88b1)
+![part1MusicCards](https://github.com/user-attachments/assets/6eb6c5d2-25bd-4d05-a9e3-aefc0f96d543)
 
 - In this screenshot, we are looking at a fundamental React application that prominently displays our Card component. This component is designed to accept parameters, also known as props, which it uses to exhibit particular details about an album, such as its title, artist, release date, and cover art. By leveraging props, we can create dynamic and reusable components that allow for the presentation of varied content based on the data passed to them. This approach not only enhances the functionality and scalability of the application but also exemplifies the core principles of React, such as component-driven architecture and state management. Through this structure, developers can easily modify and maintain their code while ensuring a seamless user experience.
 
@@ -28,14 +26,14 @@ In this session, we will focus on creating two straightforward React application
 
 ### Mini App #1 Deliverables
 
-![Mini App](./activityScreenshots/miniAppCounter.png)
+![miniAppCounter](https://github.com/user-attachments/assets/25e24804-9703-4731-9efc-0607d379c761)
 - In this screenshot, we observe the application of hooks within our stateful React components. Here, hooks play a crucial role in managing and updating the state, specifically for counter titles and their corresponding count values. By utilizing hooks such as useState, we can seamlessly integrate state management, allowing the components to reactively update the displayed titles and counts based on user interactions. This demonstrates the power of React hooks in simplifying state handling, making it easier for developers to enhance the interactivity and responsiveness of their applications while adhering to best practices in functional component design.
 
 ## Part 2
 
 ### Stopping Point #2 Deliverables
 
-![Music Cards pt. 2](./activityScreenshots/part2MusicCards.png)
+![part2MusicCards](https://github.com/user-attachments/assets/af07739d-8568-401c-95a9-a8b0d954fb4c)
 - In this screenshot, we showcase the completed version of the Activity 5 music application, which features custom CSS that effectively aligns the individual card components for a polished and visually appealing layout. Additionally, it's important to note that the underlying data source for the cards has been updated; this change allows for a more diverse range of album information to be displayed. This enhancement not only improves the aesthetic of the application but also enriches the user experience by providing more accurate and varied content. Overall, this final implementation highlights the integration of design and functionality in React applications, demonstrating how custom styles and dynamic data sources work together to create an engaging interface.
 
 
