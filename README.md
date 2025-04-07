@@ -2,14 +2,6 @@
 
 Welcome to the CST391 repository! This project showcases the development of various React applications, emphasizing component-based architecture, state management using hooks, and the use of props for dynamic data rendering.
 
-## Table of Contents
-
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Technologies](#technologies)
-- [License](#license)
 
 ## Description
 
@@ -26,9 +18,6 @@ npm install
 Usage
 To run the applications locally, execute:
 
-bash
-
-Copy
 npm start
 You can then open your browser and navigate to http://localhost:3000 to see the applications in action.
 
@@ -43,8 +32,5 @@ React: A JavaScript library for building user interfaces.
 JavaScript, TypeScript, HTML, CSS: Core technologies used in the development of the applications.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-Copy
 
 Feel free to customize any sections according to your project's specifics or add any additional information that you think might be relevant!
