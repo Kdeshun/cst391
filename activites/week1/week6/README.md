@@ -15,13 +15,14 @@ In this upcoming activity, we will take a significant step by integrating our Re
 
 ### Screenshots
 
-![Album List]<img width="1615" alt="reactAlbumsList" src="https://github.com/user-attachments/assets/5e106406-c293-47f6-9967-c1a7e9aa36c1" />
+[Album List]<img width="1615" alt="reactAlbumsList" src="https://github.com/user-attachments/assets/5e106406-c293-47f6-9967-c1a7e9aa36c1" />
 
 - This screenshot illustrates our React application showcasing all the albums retrieved from the Music API. You can see how the data is presented dynamically, reflecting our successful integration with the API. This allows users to interact with real-time data, enhancing the overall user experience.
 
 
 
-![Album Search](./attachments/reactAlbumsListSearch.png)
+[Album Search]<img width="1615" alt="reactAlbumsListSearch" src="https://github.com/user-attachments/assets/fb660c89-295e-48a9-96e2-f404246597d3" />
+
 - This screenshot highlights the search component in action, effectively filtering through the list of albums that have been fetched. You can see how the user can input their queries to dynamically refine the displayed results, demonstrating the responsive functionality and user-friendly design of the application.
 
 
