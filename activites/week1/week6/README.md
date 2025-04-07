@@ -39,13 +39,16 @@ In this section, we began by linking our React views to a set of mock JSON data,
 
 - This screenshot displays the login page of our mini app. It provides users with a clean and intuitive interface for entering their credentials, paving the way for a seamless authentication experience. The design is focused on ease of use, ensuring that users can quickly access the app's features after logging in.
 
-![About page](./attachments/miniAppAbout.png)
+[About page]<img width="1615" alt="miniAppAbout" src="https://github.com/user-attachments/assets/c57d08ec-6e77-4dae-83fd-eb1a1cd75c99" />
+
 - This screenshot showcases the about page of our application. It provides users with essential information about the app's purpose, features, and the team behind its development. The layout is designed to be engaging and informative, ensuring visitors can easily grasp what the app offers and how it can benefit them.
 
-![Contact us page](./attachments/miniAppContact.png)
+[Contact us page]<img width="1615" alt="miniAppContact" src="https://github.com/user-attachments/assets/8ccf7676-b32a-44d8-8b89-b40180c97f95" />
+
 - This screenshot displays the contact page of our application. It serves as a crucial point for users to reach out for support, inquiries, or feedback. The design prioritizes user-friendliness, featuring input fields for users to fill out their information, such as name, email, and message. This ensures that users can communicate easily and effectively with the team behind the app.
 
-![User page](./attachments/miniAppUser.png)
+[User page]<img width="1615" alt="miniAppUser" src="https://github.com/user-attachments/assets/21a0b29c-ae89-456e-a7c3-ce21ea4236ba" />
+
 - This screenshot highlights the user page of our application. It presents a personalized interface where users can view and manage their account information and preferences. The layout is designed to be user-friendly, allowing easy navigation through various options related to their profile, settings, and activities within the app. This page enhances the overall user experience by providing essential functionalities in a clear and accessible manner.
 
 ### Summary
@@ -56,11 +59,13 @@ In this mini application, we developed an App component that employs a Router to
 
 ### Screenshots
 
-![Music app](./attachments/musicAppRoutable.png)
+[Music app]<img width="1615" alt="musicAppRoutable" src="https://github.com/user-attachments/assets/0089a4f1-b30c-4d63-a0bc-34ceee60ccd0" />
+
 
 - This screenshot showcases the music application in its final state for the activity, featuring a navigation bar and support for multiple routes. The navigation bar enhances user experience by providing easy access to different sections of the app, such as albums, search functionality, and account settings. This structured routing allows for seamless transitions between various pages, making navigation intuitive and efficient. Overall, the final design reflects a polished and user-friendly music application ready for deployment.
 
-![Music app placeholder view](./attachments/musicAppPlaceholder.png)
+[Music app placeholder view]<img width="1615" alt="musicAppPlaceholder" src="https://github.com/user-attachments/assets/d947c653-f1af-4815-9c88-409f58a11fad" />
+
 - This screenshot illustrates the newly added placeholder view, which is set to be implemented in Activity 7. It is displayed using the updated routing functionality within the application. The placeholder serves as an interim space that indicates where new content or features will be integrated in the future, providing a clear visual cue to users. This strategic approach allows for smooth user navigation while signaling upcoming enhancements, ensuring that the application remains dynamic and forward-looking.
 
 ### Summary
