@@ -35,8 +35,8 @@ In this section, we began by linking our React views to a set of mock JSON data,
 
 ### Screenshots
 
-![Login page](<img width="1615" alt="miniAppLogin" src="https://github.com/user-attachments/assets/f99c2199-8e0a-40d2-aee5-3ecef9864f04" />
-)
+[Login page]<img width="1615" alt="miniAppLogin" src="https://github.com/user-attachments/assets/9b437aef-bacf-4bc6-9d0f-8de4f072d9f7" />
+
 - This screenshot displays the login page of our mini app. It provides users with a clean and intuitive interface for entering their credentials, paving the way for a seamless authentication experience. The design is focused on ease of use, ensuring that users can quickly access the app's features after logging in.
 
 ![About page](./attachments/miniAppAbout.png)
