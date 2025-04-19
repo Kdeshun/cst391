@@ -21,12 +21,14 @@ Start Up - ![miniAppStart](https://github.com/user-attachments/assets/420e1222-3
 
 
 
-![Deletion](./attachments/miniAppDelete.png)
+Delettion - ![miniAppDelete](https://github.com/user-attachments/assets/8dd79730-eaeb-44a5-a3e1-55db5969ee97)
+
 - This screenshot illustrates the operational functionality of the delete button within the mini application. It effectively demonstrates that two posts have been removed from the initial list, showcasing the dynamic interaction of the user interface. When the delete button is clicked, the corresponding post is successfully removed, confirming that our state management and event handling are working as intended. This feature enhances the user experience by allowing for seamless content management within the application.
 
 
 
-![Addition](./attachments/miniAppAdd.png)
+Addition - ![miniAppAdd](https://github.com/user-attachments/assets/b84b62ff-83ed-47b5-b4a6-c57ccfb0ecb5)
+
 - This screenshot displays the functioning add post form within the mini application. It highlights the successful addition of a new post that corresponds to the content entered in the text field. This feature illustrates the application's ability to dynamically update the post list in real time, reflecting user input. The seamless integration of the form enhances the interactivity of the application, allowing users to easily contribute new content and see their changes immediately reflected in the interface.
 
 
@@ -35,12 +37,14 @@ Start Up - ![miniAppStart](https://github.com/user-attachments/assets/420e1222-3
 
 ### Screenshots
 
-![New Album Form](./attachments/NewAlbumForm.png)
+New Album Form - ![NewAlbumForm](https://github.com/user-attachments/assets/e5b55445-118e-4330-8332-1064a340802c)
+
 - This screenshot showcases the newly integrated form within the music app, designed specifically for creating new album entries. The form provides users with a user-friendly interface to input album details, such as title, artist, and release date. This addition enhances the app's functionality by enabling users to contribute new albums directly, enriching the overall content and interactivity of the application. The seamless design ensures that users can easily navigate the form, making the process of adding albums both intuitive and efficient.
 
 
 
-![New Album Added](./attachments/NewAlbumView.png)
+New Album Added - ![miniAppAdd](https://github.com/user-attachments/assets/33405755-6147-4985-a138-10b4e8afd97e)
+
 - This screenshot presents an album successfully created using the new form in the music app. The displayed album includes all the details entered by the user, such as the title, artist, and release date. This feature highlights the app's capability to dynamically update the album list, reflecting user contributions in real time. The seamless integration of this functionality enhances the overall user experience, allowing for effortless addition and management of album data within the application.
 
 
@@ -54,12 +58,14 @@ Additionally, we implemented functionality that allows the form to submit the in
 
 ### Screenshots
 
-![New main page](./attachments/newMain.png)
+New Main Page - ![newMain](https://github.com/user-attachments/assets/5699677b-7ee8-4ce1-875d-f6a46d0d7136)
+
 - This screenshot displays the updated main page of the music app, now featuring edit buttons on each album card. These buttons enhance user interaction by allowing users to modify album details directly from the main interface. The addition of these edit buttons signifies a step forward in usability, providing a straightforward way for users to manage their albums.
 
 This functionality facilitates easy access to album editing, promoting a more dynamic and responsive application. Users can now quickly navigate to make changes, improving the overall experience of managing their music collection within the app.
 
-![Edit album](./attachments/editAlbum.png)
+Edit ALbum - ![editAlbum](https://github.com/user-attachments/assets/3b67a6d7-3d93-4403-b414-eeeb1863731f)
+
 - This screenshot showcases the refactored Add Album component, which now features an "Edit" title when an album is passed to it. The component is designed to display the relevant album information pre-filled in the form fields, allowing users to easily modify existing details.
 
 This enhancement improves the user experience by providing a clear context for editing, making it intuitive for users to update album information. With this functionality, the app supports both adding new albums and editing existing ones seamlessly, reinforcing its dynamic capabilities in managing music collections.
