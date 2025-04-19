@@ -16,7 +16,8 @@ We will begin by familiarizing ourselves with the latest features and enhancemen
 ### Screenshots
 
 ![Start up](![miniAppStart](https://github.com/user-attachments/assets/ed196361-c219-4e2a-b3d1-543ef793191c)
-)
+) ![miniAppStart](https://github.com/user-attachments/assets/16497e63-6b23-4561-8d91-ef2bf85727ba)
+
 - This screenshot captures the initial state of the mini application upon startup, showcasing a list of hardcoded posts. Each post is displayed in a structured format, providing users with a clear view of the content. This setup serves as a foundational layout, allowing us to visualize how the application will function as we proceed to integrate dynamic data and interactive features. The hardcoded posts are an essential step in the development process, enabling us to focus on layout and design before implementing more complex functionalities.
 
 
